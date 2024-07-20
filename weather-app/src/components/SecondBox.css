@@ -1,0 +1,78 @@
+.second-box {
+  background-color: #424e68;
+  color: white;
+  width: 50%;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 400px;
+  position: relative; /* Ensure that we can align content relative to the box */
+}
+
+.second-box form {
+  display: flex;
+  flex-direction: column;
+}
+
+.second-box .search-container {
+  display: flex;
+  align-items: center;
+  background-color: #424e68; /* Match the background color of the second box */
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.second-box input {
+  padding: 10px;
+  font-size: 1em;
+  margin-right: 5px;
+  border-radius: 5px;
+  border: 1px solid #333232;
+  background-color: #424e68; /* Blue background */
+  color: white; /* White text color */
+}
+
+.second-box button {
+  padding: 10px 20px;
+  font-size: 1em;
+  background-color: white;
+  color: maroon;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.second-box .city-info {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.second-box .city-info > div {
+  display: flex;
+  justify-content: space-between; /* Align labels and results on opposite sides */
+  margin: 10px 0;
+  padding: 3px 10px; /* Add some padding on left and right for better spacing */
+}
+
+.second-box .city-info .label {
+  text-align: left;
+  flex-basis: 40%; /* Adjust this percentage to control the width of the label area */
+}
+
+.second-box .city-info .value {
+  text-align: right;
+  flex-basis: 60%; /* Adjust this percentage to control the width of the value area */
+}
+
+.second-box .city-name,
+.second-box .temperature,
+.second-box .humidity,
+.second-box .wind-speed,
+.second-box .weather-type {
+  font-size: 1.2em;
+}
+
+.second-box .error {
+  color: red;
+}

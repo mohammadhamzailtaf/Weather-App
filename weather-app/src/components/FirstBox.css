@@ -1,0 +1,40 @@
+.first-box {
+    background-image: url('../assets/cloud-background.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 500px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  .first-box .day {
+    font-size: 1.5em;
+    color: white;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .first-box .date {
+    font-size: 1.2em;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .first-box .weather-animation {
+    font-size: 3em;
+  }
+  
+  .first-box .temperature {
+    font-size: 2em;
+    color: white;
+    font-weight: bold;
+  }
+  
